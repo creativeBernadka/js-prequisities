@@ -1,4 +1,4 @@
-const checkIfBalanced = require("./balanced-brackets");
+const checkIfBalanced = require("../katas/balanced-brackets");
 
 test("checks that the brackets are balanced", () => {
   expect(checkIfBalanced("()[]{}(([])){[()][]}")).toBe(true);

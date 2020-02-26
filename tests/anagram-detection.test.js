@@ -1,4 +1,4 @@
-const detectAnagrams = require("./anagram-detection");
+const detectAnagrams = require("../katas/anagram-detection");
 
 test("in 'AdnBndAndBdaBn' there are 4 anagrams of 'dAn'", () => {
   expect(detectAnagrams("AdnBndAndBdaBn", "dAn")).toBe(4);

@@ -1,4 +1,4 @@
-const convertToAtbash = require("./atbash");
+const convertToAtbash = require("../katas/atbash");
 
 test("'irk' in atbash is 'rip'", () => {
   expect(convertToAtbash("irk")).toBe("rip");

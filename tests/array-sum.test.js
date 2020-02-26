@@ -1,4 +1,4 @@
-const sumArray = require("./array-sum");
+const sumArray = require("../katas/array-sum");
 
 test("sum of [1,2,[3,4,[5]]] is 15", () => {
   expect(sumArray([1, 2, [3, 4, [5]]])).toBe(15);

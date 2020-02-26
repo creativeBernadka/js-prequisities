@@ -2,7 +2,7 @@ const {
   findSumPairs,
   findSumTuples,
   createStringsFromPairs
-} = require("./array-pair-sum");
+} = require("../katas/array-pair-sum");
 
 test("array of tuples is now array of strings", () => {
   expect(
