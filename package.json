@@ -1,0 +1,13 @@
+{
+  "name": "js-prequisities",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bernadetta Fryczkowska",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
